@@ -1,0 +1,11 @@
+[Default Applications]
+x-scheme-handler/discord=vesktop.desktop
+text/css=org.x.editor.desktop
+application/json=org.x.editor.desktop
+x-scheme-handler/terminal=kitty.desktop
+text/plain=org.x.editor.desktop
+
+[Added Associations]
+text/css=org.x.editor.desktop;
+application/json=org.x.editor.desktop;
+text/plain=org.x.editor.desktop;

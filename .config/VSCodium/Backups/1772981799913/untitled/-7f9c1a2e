@@ -1,0 +1,19 @@
+untitled:Untitled-1 {"typeId":""}
+from manim import *
+import numpy as np
+
+# Create a Manim animation
+scene = Animation(
+    # Text to be animated
+    text="Coucou",
+    # Timing parameters
+    frame_duration=0.5,  
+    # Key frame position on X-axis
+    x_coords=[0, 1], 
+    y_coords=[0, 1],
+    # Animation speed
+    animation_speed=1,
+)
+
+# Show the animation 
+scene.play() 

@@ -1,0 +1,7 @@
+[Unit]
+Description=Hyprlock screen locker
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/hyprlock

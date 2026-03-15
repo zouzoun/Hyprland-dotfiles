@@ -1,0 +1,9 @@
+connect.mdns_devices="[]"
+connect.dial_devices="[{\"address\":\"192.168.1.27\",\"app_state\":\"INSTALLABLE\",\"created_timestamp\":1772877106,\"device_id\":\"c27ee627-cf30-4613-be72-766f1fa184ab\",\"dial_location_url\":\"http://192.168.1.27:1491/\",\"display_name\":\"LG UHD TV AL TinQ 49UM71\",\"last_seen\":1773257483,\"manufacturer\":\"LG Electronics\",\"model_name\":\"49UM7100PLB\",\"product_cap\":\"\",\"public_ip\":\"2a01:cb08:f79:bb00:eb9b:6f1:eaf7:373d\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"0c8e29356f92\",\"port\":9,\"retries\":480}}]"
+audio.play_bitrate_non_metered_migrated=true
+audio.crossfade_v2=true
+ui.minimize_to_tray=true
+audio.play_bitrate_non_metered_enumeration=3
+audio.play_bitrate_enumeration=3
+ui.hide_hpto=true
+app.browser.zoom-level=-100

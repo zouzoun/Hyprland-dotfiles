@@ -1,0 +1,224 @@
+@import "mocha.css";
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo";
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#waybar {
+  background-color: @base;
+  transition: background-color 0.4s ease;
+  border-radius: 9999px;
+}
+
+window#waybar {
+    background-color: @base;
+    color: @text;
+}
+
+/* ── Capsules / pills ───────────────────────────────────────────────────── */
+
+.modules-left,
+.modules-center,
+.modules-right {
+    margin: 4px 5px;
+}
+
+#workspaces,
+#mpris,
+#tray,
+#power-profiles-daemon,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#battery,
+#clock,
+#custom-swaync {
+    background-color: @surface0;
+    border-radius: 9999px;
+    padding: 2px 12px;
+    margin: 2px 4px;
+    color: @text;
+}
+
+/* ── Workspaces ─────────────────────────────────────────────────────────── */
+
+#workspaces {
+    padding: 2px 8px;
+}
+
+#workspaces button {
+    background: transparent;
+    color: @overlay1;
+    border: none;
+    border-radius: 50%;
+    padding: 0 4px;
+    min-width: 14px;
+    min-height: 14px;
+    font-size: 10px;
+    transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+    color: @mauve;
+}
+
+#workspaces button.urgent {
+    color: @red;
+}
+
+#workspaces button:hover {
+    background: @surface1;
+    color: @text;
+}
+
+/* ── Mpris (musique) ────────────────────────────────────────────────────── */
+
+#mpris {
+    color: @mauve;
+}
+
+/* ── Tray (drawer) ──────────────────────────────────────────────────────── */
+
+#tray-expander {
+    background-color: @surface0;
+    border-radius: 12px;
+    padding: 2px 10px;
+    margin: 2px 4px;
+}
+
+#custom-expand-icon {
+    background-color: transparent;
+    color: @overlay1;
+    padding: 0 4px;
+    margin: 0;
+    transition: color 0.2s ease;
+}
+
+#custom-expand-icon:hover {
+    color: @text;
+}
+
+.tray-group-item {
+    background-color: transparent;
+    padding: 0 2px;
+}
+
+#tray {
+    padding: 0 4px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @red;
+    border-radius: 12px;
+}
+
+/* ── Power profiles ─────────────────────────────────────────────────────── */
+
+#power-profiles-daemon {
+    padding: 2px 14px;
+}
+
+#power-profiles-daemon.performance {
+    color: @red;
+}
+
+#power-profiles-daemon.balanced {
+    color: @blue;
+}
+
+#power-profiles-daemon.power-saver {
+    color: @green;
+}
+
+/* ── Audio ──────────────────────────────────────────────────────────────── */
+
+#pulseaudio {
+    color: @yellow;
+}
+
+#pulseaudio.muted {
+    color: @overlay1;
+}
+
+/* ── Network ────────────────────────────────────────────────────────────── */
+
+#network {
+    color: @teal;
+}
+
+#network.disconnected {
+    color: @red;
+}
+
+/* ── CPU ────────────────────────────────────────────────────────────────── */
+
+#cpu {
+    color: @peach;
+}
+
+/* ── Memory ─────────────────────────────────────────────────────────────── */
+
+#memory {
+    color: @mauve;
+}
+
+/* ── Battery ────────────────────────────────────────────────────────────── */
+
+#battery {
+    color: @green;
+}
+
+#battery.warning:not(.charging) {
+    color: @yellow;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to { color: @surface0; }
+}
+
+#battery.charging {
+    color: @green;
+}
+
+/* ── Clock ──────────────────────────────────────────────────────────────── */
+
+#clock {
+    color: @blue;
+}
+
+/* ── SwayNC ─────────────────────────────────────────────────────────────── */
+
+#custom-swaync {
+    color: @lavender;
+    padding: 2px 14px;
+}
+
+ * Custom Exit
+/* ── Custom Exit ─────────────────────────────────────────────────────────── */
+
+#custom-exit {
+    margin: 0px 13px 0px 0px;
+    padding:0px;
+    font-size:20px;
+    color: @iconcolor;
+    opacity: 0.8;
+}
