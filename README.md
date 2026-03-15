@@ -2,7 +2,7 @@
 
 Nothing at all other than Hyprland dotfiles ¯\\_(ツ)_/¯
 
-## Installation on Arch Linux or Arch-based (installation script)
+## Installation on Arch Linux or Arch-based only
 If you use Arch Linux or an arch-based distro, you can use the installation script `install.sh`.
 
 ```bash
@@ -35,3 +35,8 @@ install.sh
 |Music player                  |[Kew](https://github.com/ravachol/kew)                                                              |
 |Text editors                  |[msedit](https://github.com/microsoft/edit.git) and Xed                                             |
 |||
+
+
+## Contributing
+If you see an error or something wrong, please open an issue =3.
+I'm still a student so I'll try to fix the error as fast as I can...
