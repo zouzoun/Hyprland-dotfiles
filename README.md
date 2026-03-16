@@ -2,6 +2,8 @@
 
 Nothing at all other than Hyprland dotfiles ¯\\_(ツ)_/¯
 
+## /!\ This repo is still in construction
+
 ## Installation on Arch Linux or Arch-based only
 If you use Arch Linux or an arch-based distro, you can use the installation script `install.sh`.
 
