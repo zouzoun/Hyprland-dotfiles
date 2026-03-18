@@ -19,7 +19,7 @@ install.sh
 |          Feature 🌟          |                      Package 📦                                                                    |
 |------------------------------|----------------------------------------------------------------------------------------------------|
 |Window Manager                |[Hyprland](https://wiki.hypr.land/)                                                                 |
-|Status Bar                    |[Hyprpanel](https://hyprpanel.com/)                                                                 |
+|Status Bar                    |[Waybar](https://github.com/Alexays/Waybar.git)                                                                 |
 |Wallpaper Manager             |[swww](https://github.com/LGFae/swww.git)                                                           |
 |GUI Wallpaper Manager         |[Waypaper](https://github.com/anufrievroman/waypaper.git)                                           |
 |Terminal                      |[Ktty](https://sw.kovidgoyal.net/kitty/)                                                            |

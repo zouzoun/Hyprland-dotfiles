@@ -27,7 +27,8 @@ sleep 2 && clear
 
 echo ":: Installing necessary packages"
 
-    paru -S --needed hyprland kitty hyprlock hyprcursor hypridle hyprpicker hyprshot swww waypaper vicinae-bin arch-update fastfetch htop btop xed cbonsai unimatrix nerd-fonts gradia flatpak vim neovim ly pipes.sh cava spicetify-cli catppuccin-cursors-mocha catppuccin-gtk-theme-mochapapirus-icon-theme papirus-folders-catppuccin-git noto-fonts-emoji matugen kew wiremix waybar wlogout swaync swayosd
+    paru -S --needed hyprland kitty hyprlock hyprcursor hypridle hyprpicker hyprshot swww waypaper vicinae-bin arch-update fastfetch htop btop xed cbonsai unimatrix nerd-fonts gradia flatpak vim neovim ly pipes.sh cava spicetify-cli catppuccin-cursors-mocha catppuccin-gtk-theme-mochapapirus-icon-theme papirus-folders-catppuccin-git noto-fonts-emoji matugen kew wiremix waybar wlogout swaync swayosd nm-connection-editor
+
 
     git clone https://github.com/Mon4sm/Momoisay.git
     cd Momoisay

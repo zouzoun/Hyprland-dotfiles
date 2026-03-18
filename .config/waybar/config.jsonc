@@ -26,7 +26,8 @@
 // Modules
 
     "hyprland/workspaces": {
-        "format": "●",
+        // "format": "●",
+        "format": {},
         "on-scroll-up": "hyprctl dispatch workspace r-1",
         "on-scroll-down": "hyprctl dispatch workspace r+1",
         "all-outputs": false,
@@ -122,6 +123,8 @@
             "warning": 30,
             "critical": 15
         },
+        "on-scroll-up": "brightnessctl set 5%+",
+        "on-scroll-down": "brightnessctl set 5%-",
         "format": "{icon} {capacity}%",
         "format-charging": "󰂄 {capacity}%",
         "format-plugged":  "󰚥 {capacity}%",
