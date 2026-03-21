@@ -2,7 +2,13 @@
 
 Nothing at all other than Hyprland dotfiles 
 
-## /!\ This repo is still in construction
+## /!\ Disclamer : This repo is still in construction !
+
+## Showcase
+![Image1](assets/img1.png)
+![Image2](assets/img2.png)
+![Image3](assets/img3.png)
+![Image4](assets/img4.png)
 
 ## Installation on Arch Linux or Arch-based only
 If you use Arch Linux or an arch-based distro, you can use the installation script `install.sh`. 
