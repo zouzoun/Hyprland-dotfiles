@@ -5,7 +5,10 @@ Nothing at all other than Hyprland dotfiles
 ## /!\ This repo is still in construction
 
 ## Installation on Arch Linux or Arch-based only
-If you use Arch Linux or an arch-based distro, you can use the installation script `install.sh`.
+If you use Arch Linux or an arch-based distro, you can use the installation script `install.sh`. 
+
+> [!Note]
+> The script may not work. If there's a problem, please open an issue and I'll try to fix it.
 
 ```bash
 git clone https://github.com/zouzoun/Hyprland-dotfiles.git
