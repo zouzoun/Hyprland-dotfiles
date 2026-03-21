@@ -1,6 +1,6 @@
 # Hyprland-dotfiles
 
-Nothing at all other than Hyprland dotfiles ¯\\_(ツ)_/¯
+Nothing at all other than Hyprland dotfiles 
 
 ## /!\ This repo is still in construction
 
@@ -11,7 +11,7 @@ If you use Arch Linux or an arch-based distro, you can use the installation scri
 git clone https://github.com/zouzoun/Hyprland-dotfiles.git
 cd Hyprland-dotfiles
 chmod +x install.sh
-install.sh
+./install.sh
 ```
 > [!Note]
 > Some packages listed below may not be available on your distro, please refer to the documentation of the developper of the package(s)
