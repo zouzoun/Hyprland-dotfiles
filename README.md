@@ -6,8 +6,11 @@ Nothing at all other than Hyprland dotfiles
 
 ## Showcase
 ![Image1](assets/img1.png)
+
 ![Image2](assets/img2.png)
+
 ![Image3](assets/img3.png)
+
 ![Image4](assets/img4.png)
 
 ## Installation on Arch Linux or Arch-based only
