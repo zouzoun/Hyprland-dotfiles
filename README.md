@@ -16,9 +16,6 @@ Nothing at all other than Hyprland dotfiles
 ## Installation on Arch Linux or Arch-based only
 If you use Arch Linux or an arch-based distro, you can use the installation script `install.sh`. 
 
-> [!Note]
-> The script may not work. If there's a problem, please open an issue and I'll try to fix it.
-
 ```bash
 git clone https://github.com/zouzoun/Hyprland-dotfiles.git
 cd Hyprland-dotfiles
@@ -34,7 +31,7 @@ chmod +x install.sh
 |Status Bar                    |[Waybar](https://github.com/Alexays/Waybar.git)                                                                 |
 |Wallpaper Manager             |[swww](https://github.com/LGFae/swww.git)                                                           |
 |GUI Wallpaper Manager         |[Waypaper](https://github.com/anufrievroman/waypaper.git)                                           |
-|Terminal                      |[Ktty](https://sw.kovidgoyal.net/kitty/)                                                            |
+|Terminal                      |[Kitty](https://sw.kovidgoyal.net/kitty/)                                                            |
 |The Fetch                     |[Fastfetch](https://github.com/fastfetch-cli/fastfetch.git)                                         |
 |Greeter / Display manager     |[Ly](https://github.com/fairyglade/ly.git)                                                          |
 |Lockscreen                    |[Hyprlock](https://github.com/hyprwm/hyprlock.git)                                                  |
