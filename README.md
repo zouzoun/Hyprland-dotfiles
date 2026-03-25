@@ -29,7 +29,7 @@ chmod +x install.sh
 |------------------------------|----------------------------------------------------------------------------------------------------|
 |Window Manager                |[Hyprland](https://wiki.hypr.land/)                                                                 |
 |Status Bar                    |[Waybar](https://github.com/Alexays/Waybar.git)                                                                 |
-|Wallpaper Manager             |[swww](https://github.com/LGFae/swww.git)                                                           |
+|Wallpaper Backend             |[swaybg](https://github.com/swaywm/swaybg.git)                                                           |
 |GUI Wallpaper Manager         |[Waypaper](https://github.com/anufrievroman/waypaper.git)                                           |
 |Terminal                      |[Kitty](https://sw.kovidgoyal.net/kitty/)                                                            |
 |The Fetch                     |[Fastfetch](https://github.com/fastfetch-cli/fastfetch.git)                                         |
