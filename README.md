@@ -13,14 +13,11 @@ Nothing at all other than Hyprland dotfiles
 
 ![Image4](assets/img4.png)
 
-## Installation on Arch Linux or Arch-based only
-If you use Arch Linux or an arch-based distro, you can use the installation script `install.sh`. 
+## Installation 
 
 ```bash
 git clone https://github.com/zouzoun/Hyprland-dotfiles.git
 cd Hyprland-dotfiles
-chmod +x install.sh
-./install.sh
 ```
 > [!Note]
 > Some packages listed below may not be available on your distro, please refer to the documentation of the developper of the package(s)
@@ -45,7 +42,7 @@ chmod +x install.sh
 |Dancing Momoi                 |[Momoisay](https://github.com/Mon4sm/momoisay.git)                                                  |
 |Music player                  |[Kew](https://github.com/ravachol/kew)                                                              |
 |Text editors                  |[msedit](https://github.com/microsoft/edit.git) and Xed                                             |
-|||
+|Color scheme                  |[Catppuccin](https://github.com/catppuccin)|
 
 
 ## Contributing
