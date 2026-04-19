@@ -2,7 +2,7 @@
 [miscellaneous]
 
 path=~/Musique
-allowNotifications=1
+allowNotifications=0
 hideLogo=0
 hideHelp=0
 hideSideCover=0
