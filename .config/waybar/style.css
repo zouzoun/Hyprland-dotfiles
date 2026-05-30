@@ -63,7 +63,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-    color: @peach;
+    color: @flamingo;
 }
 
 #workspaces button.urgent {
