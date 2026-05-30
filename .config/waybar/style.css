@@ -71,7 +71,6 @@ window#waybar {
 }
 
 #workspaces button:hover {
-    background: @surface1;
     color: @lavender;
 }
 
