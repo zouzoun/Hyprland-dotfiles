@@ -71,7 +71,7 @@ window#waybar {
 }
 
 #workspaces button:hover {
-    color: @lavender;
+    color: @overlay1;
 }
 
 /* ── Mpris (musique) ────────────────────────────────────────────────────── */
