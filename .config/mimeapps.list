@@ -1,11 +1,17 @@
 [Default Applications]
 x-scheme-handler/discord=vesktop.desktop
-text/css=org.x.editor.desktop
+text/css=dev.zed.Zed.desktop
 application/json=org.x.editor.desktop
 x-scheme-handler/terminal=kitty.desktop
 text/plain=org.x.editor.desktop
+video/mp4=org.gnome.Showtime.desktop
+application/pdf=org.gnome.Evince.desktop
+image/jpeg=org.gnome.Loupe.desktop
 
 [Added Associations]
-text/css=org.x.editor.desktop;
+text/css=org.x.editor.desktop;dev.zed.Zed.desktop;
 application/json=org.x.editor.desktop;
 text/plain=org.x.editor.desktop;
+video/mp4=org.gnome.Showtime.desktop;
+application/pdf=org.gnome.Evince.desktop;
+image/jpeg=org.gnome.Loupe.desktop;

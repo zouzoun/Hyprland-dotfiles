@@ -1,0 +1,76 @@
+/* ─────────────────────────────────────────────────────
+   SwayOSD — Catppuccin Mocha
+   Fichier : ~/.config/swayosd/style.css
+   ───────────────────────────────────────────────────── */
+
+window {
+  background-color: transparent;
+}
+
+#osd-window {
+  background-color: #1e1e2e;
+  border: 1px solid #313244;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  padding: 16px 22px;
+  min-width: 200px;
+}
+
+/* ── Icône ──────────────────────────────────────────── */
+image {
+  -gtk-icon-size: 28px;
+  color: #89b4fa;
+  margin-right: 12px;
+}
+
+/* ── Barre de progression ────────────────────────────── */
+progressbar {
+  min-height: 8px;
+  border-radius: 6px;
+}
+
+progressbar trough {
+  background: #313244;
+  border-radius: 6px;
+  min-height: 8px;
+}
+
+progressbar progress {
+  background: #89b4fa;
+  border-radius: 6px;
+  min-height: 8px;
+  transition: all 0.1s ease;
+}
+
+/* Volume */
+#volume progressbar progress {
+  background: #94e2d5;
+}
+
+/* Luminosité */
+#brightness progressbar progress {
+  background: #f9e2af;
+}
+
+/* Muet / désactivé */
+#volume.muted progressbar progress,
+#input-volume.muted progressbar progress {
+  background: #6c7086;
+}
+
+/* Caps Lock */
+#caps-lock {
+  color: #f38ba8;
+}
+
+#caps-lock progressbar progress {
+  background: #f38ba8;
+}
+
+/* Label texte */
+label {
+  color: #cdd6f4;
+  font-family: "CaskaydiaCove Nerd Font Mono", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}

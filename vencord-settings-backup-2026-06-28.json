@@ -1,0 +1,659 @@
+{
+    "settings": {
+        "autoUpdate": true,
+        "autoUpdateNotification": true,
+        "useQuickCss": true,
+        "themeLinks": [],
+        "eagerPatches": false,
+        "enabledThemes": [],
+        "enableReactDevtools": false,
+        "frameless": true,
+        "transparent": true,
+        "winCtrlQ": false,
+        "disableMinSize": false,
+        "winNativeTitleBar": false,
+        "plugins": {
+            "ChatInputButtonAPI": {
+                "enabled": false
+            },
+            "CommandsAPI": {
+                "enabled": true
+            },
+            "DynamicImageModalAPI": {
+                "enabled": true
+            },
+            "MemberListDecoratorsAPI": {
+                "enabled": true
+            },
+            "MessageAccessoriesAPI": {
+                "enabled": true
+            },
+            "MessageDecorationsAPI": {
+                "enabled": true
+            },
+            "MessageEventsAPI": {
+                "enabled": true
+            },
+            "MessagePopoverAPI": {
+                "enabled": false
+            },
+            "MessageUpdaterAPI": {
+                "enabled": true
+            },
+            "ServerListAPI": {
+                "enabled": true
+            },
+            "UserSettingsAPI": {
+                "enabled": true
+            },
+            "AccountPanelServerProfile": {
+                "enabled": false
+            },
+            "AlwaysAnimate": {
+                "enabled": false
+            },
+            "AlwaysExpandRoles": {
+                "enabled": false
+            },
+            "AlwaysTrust": {
+                "enabled": false
+            },
+            "AnonymiseFileNames": {
+                "enabled": false
+            },
+            "WebRichPresence (arRPC)": {
+                "enabled": false
+            },
+            "BetterFolders": {
+                "enabled": false
+            },
+            "BetterGifAltText": {
+                "enabled": false
+            },
+            "BetterGifPicker": {
+                "enabled": false
+            },
+            "BetterNotesBox": {
+                "enabled": false
+            },
+            "BetterRoleContext": {
+                "enabled": false
+            },
+            "BetterRoleDot": {
+                "enabled": false
+            },
+            "BetterSessions": {
+                "enabled": false
+            },
+            "BetterSettings": {
+                "enabled": true,
+                "disableFade": true,
+                "eagerLoad": true,
+                "organizeMenu": true
+            },
+            "BetterUploadButton": {
+                "enabled": false
+            },
+            "BiggerStreamPreview": {
+                "enabled": false
+            },
+            "BlurNSFW": {
+                "enabled": false
+            },
+            "CallTimer": {
+                "enabled": false
+            },
+            "ClearURLs": {
+                "enabled": false
+            },
+            "ClientTheme": {
+                "enabled": false
+            },
+            "ColorSighted": {
+                "enabled": false
+            },
+            "ConsoleJanitor": {
+                "enabled": false
+            },
+            "ConsoleShortcuts": {
+                "enabled": false
+            },
+            "CopyEmojiMarkdown": {
+                "enabled": false
+            },
+            "CopyFileContents": {
+                "enabled": false
+            },
+            "CopyStickerLinks": {
+                "enabled": false
+            },
+            "CopyUserURLs": {
+                "enabled": false
+            },
+            "CrashHandler": {
+                "enabled": true,
+                "attemptToPreventCrashes": true,
+                "attemptToNavigateToHome": false
+            },
+            "CtrlEnterSend": {
+                "enabled": false
+            },
+            "CustomIdle": {
+                "enabled": false
+            },
+            "CustomRPC": {
+                "enabled": false,
+                "type": 2,
+                "appName": "Kew",
+                "details": "Kew",
+                "state": "Listening"
+            },
+            "Dearrow": {
+                "enabled": false
+            },
+            "Decor": {
+                "enabled": false
+            },
+            "DisableCallIdle": {
+                "enabled": false
+            },
+            "DontRoundMyTimestamps": {
+                "enabled": false
+            },
+            "Experiments": {
+                "enabled": false
+            },
+            "ExpressionCloner": {
+                "enabled": false
+            },
+            "F8Break": {
+                "enabled": false
+            },
+            "FakeNitro": {
+                "enabled": true,
+                "enableStickerBypass": true,
+                "enableStreamQualityBypass": true,
+                "enableEmojiBypass": true,
+                "transformEmojis": true,
+                "transformStickers": true,
+                "transformCompoundSentence": false,
+                "useHyperLinks": true,
+                "disableEmbedPermissionCheck": false,
+                "emojiSize": 48,
+                "stickerSize": 160,
+                "hyperLinkText": "{{NAME}}"
+            },
+            "FakeProfileThemes": {
+                "enabled": false
+            },
+            "FavoriteEmojiFirst": {
+                "enabled": false
+            },
+            "FavoriteGifSearch": {
+                "enabled": false
+            },
+            "FixCodeblockGap": {
+                "enabled": false
+            },
+            "FixImagesQuality": {
+                "enabled": true,
+                "originalImagesInChat": false
+            },
+            "ForceOwnerCrown": {
+                "enabled": false
+            },
+            "FriendInvites": {
+                "enabled": false
+            },
+            "FriendsSince": {
+                "enabled": false
+            },
+            "FullSearchContext": {
+                "enabled": false
+            },
+            "FullUserInChatbox": {
+                "enabled": false
+            },
+            "GameActivityToggle": {
+                "enabled": false
+            },
+            "GifPaste": {
+                "enabled": false
+            },
+            "GreetStickerPicker": {
+                "enabled": false
+            },
+            "HideMedia": {
+                "enabled": false
+            },
+            "iLoveSpam": {
+                "enabled": true
+            },
+            "IgnoreActivities": {
+                "enabled": false
+            },
+            "ImageFilename": {
+                "enabled": false
+            },
+            "ImageLink": {
+                "enabled": false
+            },
+            "ImageZoom": {
+                "enabled": false,
+                "saveZoomValues": true,
+                "invertScroll": true,
+                "nearestNeighbour": false,
+                "square": false,
+                "zoom": 7.399999999999999,
+                "size": 100,
+                "zoomSpeed": 0.5
+            },
+            "ImplicitRelationships": {
+                "enabled": false
+            },
+            "IrcColors": {
+                "enabled": true,
+                "memberListColors": true,
+                "lightness": 70,
+                "applyColorOnlyInDms": true,
+                "applyColorOnlyToUsersWithoutColor": true
+            },
+            "KeepCurrentChannel": {
+                "enabled": false
+            },
+            "LastFMRichPresence": {
+                "enabled": false
+            },
+            "LoadingQuotes": {
+                "enabled": false
+            },
+            "MemberCount": {
+                "enabled": true,
+                "memberList": true,
+                "toolTip": true,
+                "voiceActivity": true
+            },
+            "MentionAvatars": {
+                "enabled": false
+            },
+            "MessageClickActions": {
+                "enabled": false
+            },
+            "MessageLatency": {
+                "enabled": false
+            },
+            "MessageLinkEmbeds": {
+                "enabled": false
+            },
+            "MessageLogger": {
+                "enabled": false,
+                "collapseDeleted": false,
+                "ignoreBots": false,
+                "ignoreSelf": false,
+                "ignoreUsers": "",
+                "ignoreChannels": "",
+                "ignoreGuilds": "",
+                "logEdits": true,
+                "logDeletes": true,
+                "deleteStyle": "text",
+                "inlineEdits": true
+            },
+            "MoreQuickReactions": {
+                "enabled": true,
+                "reactionCount": 15
+            },
+            "MutualGroupDMs": {
+                "enabled": false
+            },
+            "NewGuildSettings": {
+                "enabled": false
+            },
+            "NoBlockedMessages": {
+                "enabled": true,
+                "ignoreMessages": false,
+                "applyToIgnoredUsers": true
+            },
+            "NoDevtoolsWarning": {
+                "enabled": false
+            },
+            "NoF1": {
+                "enabled": false
+            },
+            "NoMaskedUrlPaste": {
+                "enabled": false
+            },
+            "NoMosaic": {
+                "enabled": false
+            },
+            "NoOnboardingDelay": {
+                "enabled": false
+            },
+            "NoPendingCount": {
+                "enabled": false
+            },
+            "NoProfileThemes": {
+                "enabled": false
+            },
+            "NoReplyMention": {
+                "enabled": false
+            },
+            "NoServerEmojis": {
+                "enabled": false
+            },
+            "NoTypingAnimation": {
+                "enabled": true
+            },
+            "NoUnblockToJump": {
+                "enabled": false
+            },
+            "NotificationVolume": {
+                "enabled": false
+            },
+            "OnePingPerDM": {
+                "enabled": false
+            },
+            "oneko": {
+                "enabled": false
+            },
+            "OpenInApp": {
+                "enabled": false
+            },
+            "OverrideForumDefaults": {
+                "enabled": false
+            },
+            "PauseInvitesForever": {
+                "enabled": false
+            },
+            "PermissionFreeWill": {
+                "enabled": false
+            },
+            "PermissionsViewer": {
+                "enabled": true,
+                "permissionsSortOrder": 0
+            },
+            "petpet": {
+                "enabled": false
+            },
+            "PictureInPicture": {
+                "enabled": false
+            },
+            "PinDMs": {
+                "enabled": false
+            },
+            "PlainFolderIcon": {
+                "enabled": false
+            },
+            "PlatformIndicators": {
+                "enabled": true,
+                "colorMobileIndicator": true,
+                "list": true,
+                "badges": false,
+                "messages": false
+            },
+            "PreviewMessage": {
+                "enabled": false
+            },
+            "QuickMention": {
+                "enabled": false
+            },
+            "QuickReply": {
+                "enabled": false
+            },
+            "ReactErrorDecoder": {
+                "enabled": false
+            },
+            "ReadAllNotificationsButton": {
+                "enabled": true
+            },
+            "RelationshipNotifier": {
+                "enabled": false
+            },
+            "ReplaceGoogleSearch": {
+                "enabled": false
+            },
+            "ReplyTimestamp": {
+                "enabled": false
+            },
+            "RevealAllSpoilers": {
+                "enabled": false
+            },
+            "ReverseImageSearch": {
+                "enabled": false
+            },
+            "ReviewDB": {
+                "enabled": true,
+                "notifyReviews": true,
+                "showWarning": true,
+                "hideTimestamps": false,
+                "hideBlockedUsers": true
+            },
+            "RoleColorEverywhere": {
+                "enabled": false
+            },
+            "SecretRingToneEnabler": {
+                "enabled": false
+            },
+            "Summaries": {
+                "enabled": false,
+                "summaryExpiryThresholdDays": 6.178571428571429
+            },
+            "SendTimestamps": {
+                "enabled": false
+            },
+            "ServerInfo": {
+                "enabled": true
+            },
+            "ServerListIndicators": {
+                "enabled": false
+            },
+            "ShowAllMessageButtons": {
+                "enabled": false
+            },
+            "ShowConnections": {
+                "enabled": false
+            },
+            "ShowHiddenChannels": {
+                "enabled": true,
+                "showMode": 0,
+                "hideUnreads": true,
+                "defaultAllowedUsersAndRolesDropdownState": true
+            },
+            "ShowHiddenThings": {
+                "enabled": true,
+                "showTimeouts": true,
+                "showInvitesPaused": true,
+                "showModView": true
+            },
+            "ShowMeYourName": {
+                "enabled": false
+            },
+            "ShowTimeoutDuration": {
+                "enabled": false
+            },
+            "SilentMessageToggle": {
+                "enabled": false
+            },
+            "SilentTyping": {
+                "enabled": false
+            },
+            "SortFriendRequests": {
+                "enabled": false
+            },
+            "SpotifyControls": {
+                "enabled": true,
+                "hoverControls": false,
+                "useSpotifyUris": false,
+                "previousButtonRestartsTrack": true
+            },
+            "SpotifyCrack": {
+                "enabled": false
+            },
+            "SpotifyShareCommands": {
+                "enabled": false
+            },
+            "StartupTimings": {
+                "enabled": false
+            },
+            "StickerPaste": {
+                "enabled": false
+            },
+            "StreamerModeOnStream": {
+                "enabled": false
+            },
+            "SuperReactionTweaks": {
+                "enabled": true,
+                "superReactByDefault": true,
+                "unlimitedSuperReactionPlaying": false,
+                "superReactionPlayingLimit": 20
+            },
+            "TextReplace": {
+                "enabled": false
+            },
+            "ThemeAttributes": {
+                "enabled": false
+            },
+            "Translate": {
+                "enabled": false
+            },
+            "TypingIndicator": {
+                "enabled": false
+            },
+            "TypingTweaks": {
+                "enabled": false
+            },
+            "Unindent": {
+                "enabled": false
+            },
+            "UnlockedAvatarZoom": {
+                "enabled": false
+            },
+            "UnsuppressEmbeds": {
+                "enabled": false
+            },
+            "UserMessagesPronouns": {
+                "enabled": false
+            },
+            "UserVoiceShow": {
+                "enabled": false
+            },
+            "USRBG": {
+                "enabled": false,
+                "nitroFirst": true,
+                "voiceBackground": true
+            },
+            "ValidReply": {
+                "enabled": false
+            },
+            "ValidUser": {
+                "enabled": false
+            },
+            "VoiceChatDoubleClick": {
+                "enabled": false
+            },
+            "VcNarrator": {
+                "enabled": false
+            },
+            "VencordToolbox": {
+                "enabled": true,
+                "showPluginMenu": true
+            },
+            "ViewIcons": {
+                "enabled": false
+            },
+            "ViewRaw": {
+                "enabled": false
+            },
+            "VoiceDownload": {
+                "enabled": false
+            },
+            "VoiceMessages": {
+                "enabled": false
+            },
+            "VolumeBooster": {
+                "enabled": false
+            },
+            "WebContextMenus": {
+                "enabled": true,
+                "addBack": true
+            },
+            "WebKeybinds": {
+                "enabled": true
+            },
+            "WebScreenShareFixes": {
+                "enabled": true
+            },
+            "WhoReacted": {
+                "enabled": true
+            },
+            "XSOverlay": {
+                "enabled": false
+            },
+            "BadgeAPI": {
+                "enabled": true
+            },
+            "NoTrack": {
+                "enabled": true,
+                "disableAnalytics": true
+            },
+            "Settings": {
+                "enabled": true,
+                "settingsLocation": "top",
+                "includeVencordInfoWhenCopying": true
+            },
+            "DisableDeepLinks": {
+                "enabled": true
+            },
+            "SupportHelper": {
+                "enabled": true
+            },
+            "AppleMusicRichPresence": {
+                "enabled": false
+            },
+            "FixSpotifyEmbeds": {
+                "enabled": false
+            },
+            "FixYoutubeEmbeds": {
+                "enabled": false
+            },
+            "NoDefaultHangStatus": {
+                "enabled": false
+            },
+            "ShikiCodeblocks": {
+                "enabled": false
+            },
+            "YoutubeAdblock": {
+                "enabled": false
+            },
+            "CustomCommands": {
+                "enabled": false
+            },
+            "CharacterCounter": {
+                "enabled": false
+            },
+            "ConcatenatedComponentExtractor": {
+                "enabled": true
+            },
+            "NoMiddleClickPaste": {
+                "enabled": false
+            }
+        },
+        "uiElements": {
+            "chatBarButtons": {},
+            "messagePopoverButtons": {}
+        },
+        "notifications": {
+            "timeout": 5000,
+            "position": "bottom-right",
+            "useNative": "not-focused",
+            "logLimit": 50
+        },
+        "cloud": {
+            "authenticated": false,
+            "url": "https://api.vencord.dev/",
+            "settingsSync": false,
+            "settingsSyncVersion": 1782655247539
+        },
+        "windowsMaterial": "none"
+    },
+    "quickCss": "/**\n * @name system24 (catppuccin mocha)\n * @description a tui-style discord theme. based on catppuccin mocha theme (https://catppuccin.com).\n * @author refact0r\n * @version 2.0.0\n * @invite nz87hXyvcy\n * @website https://github.com/refact0r/system24\n * @source https://github.com/refact0r/system24/blob/master/theme/system24-catppuccin-mocha.theme.css\n * @authorId 508863359777505290\n * @authorLink https://www.refact0r.dev\n*/\n\n/* import theme modules */\n@import url('https://refact0r.github.io/system24/build/system24.css');\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@600&display=swap');\n</style>\n\nbody {\n\n    \n    /* font, change to '' for default discord font */\n    /* --font: 'DM Mono'; /* change to '' for default discord font */\n    /* --code-font: 'DM Mono'; /* change to '' for default discord font */\n    font-weight: 400; /* text font weight. 300 is light, 400 is normal. DOES NOT AFFECT BOLD TEXT */\n    letter-spacing: 1ch; /* decreases letter spacing for better readability. recommended on monospace fonts.*/\n\n    /* sizes */\n    --gap: 4px; /* spacing between panels */\n    --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */\n    --border-thickness: 2px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */\n    --border-hover-transition: 0s ease; /* transition for borders when hovered */\n\n    /* animation/transition options */\n    --animations: off; /* off: disable animations/transitions, on: enable animations/transitions */\n    --list-item-transition: 0s ease; /* transition for list items */\n    --dms-icon-svg-transition: 0s ease; /* transition for the dms icon */\n\n    /* top bar options */\n    --top-bar-height: var(--gap); /* height of the top bar (discord default is 36px, old discord style is 24px, var(--gap) recommended if button position is set to titlebar) */\n    --top-bar-button-position: titlebar; /* off: default position, hide: hide buttons completely, serverlist: move inbox button to server list, titlebar: move inbox button to channel titlebar (will hide title) */\n    --top-bar-title-position: off; /* off: default centered position, hide: hide title completely, left: left align title (like old discord) */\n    --subtle-top-bar-title: off; /* off: default, on: hide the icon and use subtle text color (like old discord) */\n\n    /* window controls */\n    --custom-window-controls: off; /* off: default window controls, on: custom window controls */\n    --window-control-size: 14px; /* size of custom window controls */\n\n    /* dms button options */\n    --custom-dms-icon: hide; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */\n    --dms-icon-svg-url: url(''); /* icon svg url. MUST BE A SVG. */\n    --dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */\n    --dms-icon-color-before: var(--icon-subtle); /* normal icon color */\n    --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */\n    --custom-dms-background: image; /* off to disable, image to use a background image (must set url variable below), color to use a custom color/gradient */\n    --dms-background-image-url: url('https://raw.githubusercontent.com/catppuccin/catppuccin/refs/heads/main/assets/logos/exports/macchiato_square.png'); /* url of the background image */\n    --dms-background-image-size: cover; /* size of the background image (css background-size property) */\n    --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */\n\n    /* background image options */\n    --background-image: off; /* off: no background image, on: enable background image (must set url variable below) */\n    --background-image-url: url(''); /* url of the background image */\n\n    /* transparency/blur options */\n    /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */\n    --transparency-tweaks: off; /* off: no changes, on: remove some elements for better transparency */\n    --remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */\n    --panel-blur: off; /* off: no changes, on: blur the background of panels */\n    --blur-amount: 12px; /* amount of blur */\n    --bg-floating: var(--bg-3); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */\n\n    /* other options */\n    --small-user-panel: off; /* off: default user panel, on: smaller user panel like in old discord */\n\n    /* unrounding options */\n    --unrounding: on; /* off: default, on: remove rounded corners from panels */\n\n    /* styling options */\n    --custom-spotify-bar: on; /* off: default, on: custom text-like spotify progress bar */\n    --ascii-titles: on; /* off: default, on: use ascii font for titles at the start of a channel */\n    --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */\n\n    /* panel labels */\n    --panel-labels: on; /* off: default, on: add labels to panels */\n    --label-color: var(--text-muted); /* color of labels */\n    --label-font-weight: 500; /* font weight of labels */\n}\n\n/* color options */\n:root {\n    --colors: on; /* off: discord default colors, on: midnight custom colors */\n\n    /* text colors */\n    --text-0: var(--bg-3); /* text on colored elements */\n    --text-1: hsl(226, 64%, 95%); /* other normally white text */\n    --text-2: #cdd6f4; /* headings and important text */\n    --text-3: #bac2de; /* normal text */\n    --text-4: #7f849c; /* icon buttons and channels */\n    --text-5: #585b70; /* muted channels/chats and timestamps */\n\n    /* background and dark colors */\n    --bg-1: #45475a; /* dark buttons when clicked */\n    --bg-2: #313244; /* dark buttons */\n    --bg-3: #181825; /* spacing, secondary elements */\n    --bg-4: #1e1e2e; /* main background color */\n    --hover: hsla(235, 15%, 53%, 0.1); /* channels and buttons when hovered */\n    --active: hsla(235, 15%, 53%, 0.2); /* channels and buttons when clicked or selected */\n    --active-2: hsla(235, 15%, 53%, 0.3); /* extra state for transparent buttons */\n    --message-hover: hsla(235, 0%, 0%, 0.1); /* messages when hovered */\n\n    /* accent colors */\n    --accent-1: var(--purple-1); /* links and other accent text */\n    --accent-2: var(--purple-2); /* small accent elements */\n    --accent-3: var(--purple-3); /* accent buttons */\n    --accent-4: var(--purple-4); /* accent buttons when hovered */\n    --accent-5: var(--purple-5); /* accent buttons when clicked */\n    --accent-new: var(--accent-2); /* stuff that's normally red like mute/deafen buttons */\n    --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent); /* background of messages that mention you */\n    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */\n    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent); /* background of messages that reply to you */\n    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */\n\n    /* status indicator colors */\n    --online: var(--green-2); /* change to #43a25a for default */\n    --dnd: var(--red-2); /* change to #d83a42 for default */\n    --idle: var(--yellow-2); /* change to #ca9654 for default */\n    --streaming: var(--purple-2); /* change to #593695 for default */\n    --offline: var(--text-4); /* change to #83838b for default offline color */\n\n    /* border colors */\n    --border-light: var(--hover); /* general light border color */\n    --border: var(--active); /* general normal border color */\n    --border-hover: var(--accent-2); /* border color of panels when hovered */\n    --button-border: hsl(235, 0%, 100%, 0.1); /* neutral border color of buttons */\n\n    /* base colors */\n    --red-1: hsl(343deg, 81%, 80%);\n    --red-2: hsl(343deg, 81%, 75%);\n    --red-3: hsl(343deg, 81%, 75%);\n    --red-4: hsl(343deg, 81%, 70%);\n    --red-5: hsl(343deg, 81%, 65%);\n\n    --green-1: hsl(115deg, 54%, 81%);\n    --green-2: hsl(115deg, 54%, 76%);\n    --green-3: hsl(115deg, 54%, 76%);\n    --green-4: hsl(115deg, 54%, 71%);\n    --green-5: hsl(115deg, 54%, 66%);\n\n    --blue-1: hsl(199deg, 76%, 74%);\n    --blue-2: hsl(199deg, 76%, 69%);\n    --blue-3: hsl(199deg, 76%, 69%);\n    --blue-4: hsl(199deg, 76%, 64%);\n    --blue-5: hsl(199deg, 76%, 59%);\n\n    --yellow-1: hsl(41deg, 86%, 88%);\n    --yellow-2: hsl(41deg, 86%, 83%);\n    --yellow-3: hsl(41deg, 86%, 83%);\n    --yellow-4: hsl(41deg, 86%, 78%);\n    --yellow-5: hsl(41deg, 86%, 73%);\n\n    --purple-1: hsl(267deg, 84%, 86%);\n    --purple-2: hsl(267deg, 84%, 81%);\n    --purple-3: hsl(267deg, 84%, 81%);\n    --purple-4: hsl(267deg, 84%, 76%);\n    --purple-5: hsl(267deg, 84%, 71%);\n}\n\nbody {\n    /* ... rest of your options ... */\n    --round-users-profiles: on;\n}\n\n@property --round-users-profiles {\n    syntax: 'off | on';\n    inherits: false;\n    initial-value: off;\n}\n\n@container body style(--round-users-profiles: on) {\n    .avatar_c19a55, .avatar__44b0c {\n        border-radius: 100% !important;\n    }\n\n    .wrapper__44b0c {\n        /* fix something weird with a background color behind the user profile that looked ugly */\n        background-color: transparent !important;\n    }\n\n    .avatarDecorationContainer__44b0c foreignObject {\n        /* fix for a weird mask on the user profile page for user decoration */\n        mask: none;\n    }\n}"
+}

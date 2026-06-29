@@ -15,5 +15,5 @@ today=$(date +%s)
 install_date=$(stat -c %W /)
 install_date_day=$(stat -c %W / | awk '{print strftime("%e/%m/%Y",$1)}' | awk '{$1=$1};1')
 install_time=$(( ($today - $install_date) / 86400 ))
-end_challenge=30
+end_challenge=365
 percentage=$(( $install_time / $end_challenge * 100 ))

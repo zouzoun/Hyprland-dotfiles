@@ -1,0 +1,58 @@
+------------------------------
+---- GENERAL + DECORATION ----
+------------------------------
+
+-- Refer to https://wiki.hypr.land/Configuring/Variables/
+
+-- https://wiki.hypr.land/Configuring/Variables/#general
+hl.config({
+    general = {
+        gaps_in  = 3,
+        gaps_out = 3,
+
+        border_size = 3,
+
+        -- https://wiki.hypr.land/Configuring/Variables/#variable-types for info about colors
+        ["col.active_border"]   = "rgb(b4befe)",
+        ["col.inactive_border"] = "rgb(cba6f7)",
+
+        -- Set to true to enable resizing windows by clicking and dragging on borders and gaps
+        resize_on_border = true,
+
+        -- Please see https://wiki.hypr.land/Configuring/Tearing/ before you turn this on
+        allow_tearing = false,
+
+        layout = "dwindle",
+    },
+
+    -- https://wiki.hypr.land/Configuring/Variables/#decoration
+    decoration = {
+        rounding       = 0,
+        rounding_power = 0,
+
+        -- Change transparency of focused and unfocused windows
+        active_opacity   = 0.95,
+        inactive_opacity = 0.85,
+
+        shadow = {
+            enabled      = true,
+            range        = 4,
+            render_power = 3,
+            color        = "rgba(1a1a1aee)",
+        },
+
+        -- https://wiki.hypr.land/Configuring/Variables/#blur
+        blur = {
+            enabled          = true,
+            size             = 15,
+            passes           = 4,
+            ignore_opacity   = true,
+
+            noise    = 0.1,
+            contrast = 2,
+
+            xray              = false,
+            new_optimizations = true,
+        },
+    },
+})
